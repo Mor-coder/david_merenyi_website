@@ -1,3 +1,13 @@
 .footer {
   margin: 50px;
 }
+
+.social ul {
+  list-style: none;
+}
+
+.social li {
+  padding: 8px;
+  font-size: 30px;
+  color: black;
+}
