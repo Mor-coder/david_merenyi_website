@@ -19,8 +19,8 @@
       src="https://kit.fontawesome.com/6d221f4f88.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/style.css" />
-    <title>Dávid Merényi</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Selected Works</title>
   </head>
   <body>
     <div class="container-flex">
@@ -51,63 +51,32 @@
           </div>
         </div>
       </nav>
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/david_painting_yellow_house.png"
-              class="d-block w-100"
-              alt="david_painting_yellow_house"
-            />
+      <div class="container">
+        <div class="selected_works">
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+            <div class="col-md-8">
+              <img src="/img/david_painting_country_house.png" />
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="img/david_painting_house.png" />
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="img/david_exhibition.png"
-              class="d-block w-100"
-              alt="david_painting_bath"
-            />
+
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <img src="img/david_painting_yellow_house.png" />
+            </div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="img/david_painting_country_house.png"
-              class="d-block w-100"
-              alt="david_painting_house"
-            />
+
+          <!-- Columns are always 50% wide, on mobile and desktop -->
+          <div class="row">
+            <div class="col-6">.col-6</div>
+            <div class="col-6">.col-6</div>
           </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div class="footer">
-        <div class="social">
-          <ul>
-            <li>
-              <a href="/"><i class="fas fa-envelope-square"></i></a>
-            </li>
-            <a href="https://www.instagram.com/merenyidavid/" target="_blank">
-              <li><i class="fab fa-instagram-square"></i></li
-            ></a>
-          </ul>
         </div>
       </div>
     </div>

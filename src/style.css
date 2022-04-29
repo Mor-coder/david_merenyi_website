@@ -11,3 +11,15 @@
   font-size: 30px;
   color: black;
 }
+
+.exhibitions_list {
+  padding: 2em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.exhibitions_list img {
+  display: block;
+  width: 100%;
+  padding: 1em;
+}
